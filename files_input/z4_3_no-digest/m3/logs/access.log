@@ -1,0 +1,2 @@
+1540920395.123  36462 10.0.4.100 TCP_MISS/200 10697 GET http://www.deepsloweasy.com/ - FIRST_PARENT_MISS/10.0.4.102 text/html
+1540920450.509      0 10.0.4.100 TCP_MEM_HIT/200 10704 GET http://www.deepsloweasy.com/ - HIER_NONE/- text/html

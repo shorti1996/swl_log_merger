@@ -1,0 +1,2 @@
+1540920349.081      1 192.168.224.3 TCP_MISS/200 316 GET http://dbbe1756cf26:3128/squid-internal-dynamic/netdb - HIER_NONE/- -
+1540920393.771      0 192.168.224.3 UDP_MISS/000 49 ICP_QUERY http://www.deepsloweasy.com/ - HIER_NONE/- -

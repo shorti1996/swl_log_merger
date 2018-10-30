@@ -1,0 +1,3 @@
+1540918759.388  36154 10.0.4.100 TCP_MISS/200 10697 GET http://www.deepsloweasy.com/ - FIRST_PARENT_MISS/10.0.4.102 text/html
+1540919054.838  70044 10.0.4.100 TCP_MISS/503 4323 GET http://www.deepsloweasy.com/ - FIRST_PARENT_MISS/10.0.4.102 text/html
+1540919078.936     24 10.0.4.100 TCP_MISS/200 10814 GET http://www.deepsloweasy.com/ - FIRST_PARENT_MISS/10.0.4.102 text/html

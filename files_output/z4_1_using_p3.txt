@@ -1,0 +1,44 @@
+z4_1_using_p3/m1/logs/access.log
+1540916395.223      0 172.29.0.2 TCP_MISS/200 316 GET http://4f3ec3613cbd:3128/squid-internal-dynamic/netdb - HIER_NONE/- -
+z4_1_using_p3/m1/logs/store.log
+1540916395.223 RELEASE -1 FFFFFFFF 6B9647BE1F55C07AE62800EE9C75CDF7   ?         ?         ?         ? ?/? ?/? ? ?
+z4_1_using_p3/m2/logs/store.log
+1540916395.223 RELEASE -1 FFFFFFFF CDDE87B9A8BA8FB85FBA55091F1534FB   ?         ?         ?         ? ?/? ?/? ? ?
+z4_1_using_p3/m2/logs/access.log
+1540916395.498      0 172.29.0.3 TCP_MISS/200 316 GET http://cfd7a5f3980c:3128/squid-internal-dynamic/netdb - HIER_NONE/- -
+z4_1_using_p3/m3/logs/store.log
+1540916395.498 RELEASE -1 FFFFFFFF 0FF87C8019DB817EBBBB37E4547F2524   ?         ?         ?         ? ?/? ?/? ? ?
+z4_1_using_p3/m2/logs/store.log
+1540916395.498 RELEASE -1 FFFFFFFF D8183A09E212A4908859EC5B8EA43DAE   ?         ?         ?         ? ?/? ?/? ? ?
+z4_1_using_p3/m2/logs/access.log
+1540916395.568      0 172.29.0.4 TCP_MISS/200 316 GET http://cfd7a5f3980c:3128/squid-internal-dynamic/netdb - HIER_NONE/- -
+z4_1_using_p3/m2/logs/store.log
+1540916395.568 RELEASE -1 FFFFFFFF D60BE9AAC3E3EA0A4CF38DC36CDC6EAA   ?         ?         ?         ? ?/? ?/? ? ?
+z4_1_using_p3/m1/logs/store.log
+1540916395.568 RELEASE -1 FFFFFFFF ED1A9BE2664550D3775DD6EF865436D5   ?         ?         ?         ? ?/? ?/? ? ?
+
+z4_1_using_p3/m2/logs/access.log
+1540916597.262      0 172.29.0.3 UDP_MISS/000 49 ICP_QUERY http://www.deepsloweasy.com/ - HIER_NONE/- -
+z4_1_using_p3/m2/logs/access.log
+1540916597.263      0 172.29.0.3 TCP_MEM_HIT/200 555 GET http://cfd7a5f3980c:3128/squid-internal-periodic/store_digest - HIER_NONE/- application/cache-digest
+z4_1_using_p3/m3/logs/store.log
+1540916597.263 SWAPOUT 00 00000000 EDEDD92A846C0EA1768FC08C1BB7E91D  200 1540916597 1540916385 1540919985 application/cache-digest 160/160 GET http://p2:3128/squid-internal-periodic/store_digest
+z4_1_using_p3/m1/logs/access.log
+1540916597.276      0 172.29.0.2 UDP_MISS/000 49 ICP_QUERY http://www.deepsloweasy.com/ - HIER_NONE/- -
+z4_1_using_p3/m1/logs/access.log
+1540916597.276      0 172.29.0.2 TCP_MEM_HIT/200 555 GET http://4f3ec3613cbd:3128/squid-internal-periodic/store_digest - HIER_NONE/- application/cache-digest
+z4_1_using_p3/m2/logs/store.log
+1540916597.277 SWAPOUT 00 00000000 FA6B1ED81D324553B1875E105AB057A4  200 1540916597 1540916385 1540919985 application/cache-digest 160/160 GET http://p1:3128/squid-internal-periodic/store_digest
+z4_1_using_p3/m2/logs/store.log
+1540916598.507 SWAPOUT 00 00000001 D410C4992910D01EE8F26A2B4FB2B930  200 1540916596 1533748969        -1 text/html 10197/10197 GET http://www.deepsloweasy.com/
+z4_1_using_p3/m2/logs/access.log
+1540916598.509   1237 172.29.0.3 TCP_MISS/200 10586 GET http://www.deepsloweasy.com/ - HIER_DIRECT/192.169.155.198 text/html
+z4_1_using_p3/m3/logs/store.log
+1540916598.510 SWAPOUT 00 00000001 D410C4992910D01EE8F26A2B4FB2B930  200 1540916596 1533748969        -1 text/html 10197/10197 GET http://www.deepsloweasy.com/
+z4_1_using_p3/m3/logs/access.log
+1540916598.512   1298 172.28.0.3 TCP_MISS/200 10697 GET http://www.deepsloweasy.com/ - FIRST_PARENT_MISS/172.29.0.2 text/html
+
+z4_1_using_p3/m3/logs/access.log
+1540916990.115      0 172.28.0.3 TCP_MEM_HIT/200 10705 GET http://www.deepsloweasy.com/ - HIER_NONE/- text/html
+z4_1_using_p3/m3/logs/access.log
+1540916991.011      0 172.28.0.3 TCP_MEM_HIT/200 10705 GET http://www.deepsloweasy.com/ - HIER_NONE/- text/html

@@ -1,0 +1,12 @@
+1540914122.443      0 172.25.0.4 TCP_MISS/200 316 GET http://679fddb22b68:3128/squid-internal-dynamic/netdb - HIER_NONE/- -
+1540914137.317      0 172.25.0.4 UDP_MISS/000 49 ICP_QUERY http://www.deepsloweasy.com/ - HIER_NONE/- -
+1540914138.329   1005 172.25.0.4 TCP_MISS/200 10586 GET http://www.deepsloweasy.com/ - HIER_DIRECT/192.169.155.198 text/html
+1540914197.320      0 172.25.0.4 TCP_MEM_HIT/200 555 GET http://679fddb22b68:3128/squid-internal-periodic/store_digest - HIER_NONE/- application/cache-digest
+1540914436.897      0 172.27.0.3 TCP_MISS/200 316 GET http://a5389acedf91:3128/squid-internal-dynamic/netdb - HIER_NONE/- -
+1540914437.019      0 172.27.0.3 UDP_MISS/000 49 ICP_QUERY http://www.deepsloweasy.com/ - HIER_NONE/- -
+1540914438.152   1132 172.27.0.3 TCP_MISS/200 10586 GET http://www.deepsloweasy.com/ - HIER_DIRECT/192.169.155.198 text/html
+1540914497.026      0 172.27.0.3 TCP_MEM_HIT/200 555 GET http://a5389acedf91:3128/squid-internal-periodic/store_digest - HIER_NONE/- application/cache-digest
+1540915282.513      0 172.27.0.3 UDP_HIT/000 49 ICP_QUERY http://www.deepsloweasy.com/ - HIER_NONE/- -
+1540915282.518      0 172.27.0.3 TCP_MEM_HIT/200 10594 GET http://www.deepsloweasy.com/ - HIER_NONE/- text/html
+1540915285.844      0 172.27.0.3 TCP_MISS/200 316 GET http://a5389acedf91:3128/squid-internal-dynamic/netdb - HIER_NONE/- -
+1540915342.513      0 172.27.0.3 TCP_MEM_HIT/200 555 GET http://a5389acedf91:3128/squid-internal-periodic/store_digest - HIER_NONE/- application/cache-digest

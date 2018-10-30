@@ -1,0 +1,9 @@
+1540907601.388  35059 172.18.0.5 TCP_MISS/200 10706 GET http://www.deepsloweasy.com/ - PARENT_HIT/172.18.0.2 text/html
+1540908298.297  39269 172.18.0.5 TCP_MISS/200 10697 GET http://www.deepsloweasy.com/ - FIRST_PARENT_MISS/172.18.0.2 text/html
+1540908428.123  35027 172.18.0.5 TCP_MEM_HIT/200 10705 GET http://www.deepsloweasy.com/ - HIER_NONE/- text/html
+1540908472.474      0 172.18.0.5 TCP_MEM_HIT/200 10705 GET http://www.deepsloweasy.com/ - HIER_NONE/- text/html
+1540908474.122      0 172.18.0.5 TCP_MEM_HIT/200 10705 GET http://www.deepsloweasy.com/ - HIER_NONE/- text/html
+1540908474.686      0 172.18.0.5 TCP_MEM_HIT/200 10705 GET http://www.deepsloweasy.com/ - HIER_NONE/- text/html
+1540908475.053      0 172.18.0.5 TCP_MEM_HIT/200 10705 GET http://www.deepsloweasy.com/ - HIER_NONE/- text/html
+1540908475.614      0 172.18.0.5 TCP_MEM_HIT/200 10705 GET http://www.deepsloweasy.com/ - HIER_NONE/- text/html
+1540908476.021      0 172.18.0.5 TCP_MEM_HIT/200 10705 GET http://www.deepsloweasy.com/ - HIER_NONE/- text/html

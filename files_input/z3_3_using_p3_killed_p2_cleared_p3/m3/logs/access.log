@@ -1,0 +1,16 @@
+1540914138.335   1087 172.24.0.3 TCP_MISS/200 10697 GET http://www.deepsloweasy.com/ - TIMEOUT_FIRST_PARENT_MISS/172.25.0.3 text/html
+1540914180.344      0 172.24.0.3 TCP_MEM_HIT/200 10704 GET http://www.deepsloweasy.com/ - HIER_NONE/- text/html
+1540914181.029      0 172.24.0.3 TCP_MEM_HIT/200 10704 GET http://www.deepsloweasy.com/ - HIER_NONE/- text/html
+1540914261.864      0 172.24.0.3 TCP_MEM_HIT/200 10705 GET http://www.deepsloweasy.com/ - HIER_NONE/- text/html
+1540914262.215      0 172.24.0.3 TCP_MEM_HIT/200 10705 GET http://www.deepsloweasy.com/ - HIER_NONE/- text/html
+1540914262.446      0 172.24.0.3 TCP_MEM_HIT/200 10705 GET http://www.deepsloweasy.com/ - HIER_NONE/- text/html
+1540914262.672      0 172.24.0.3 TCP_MEM_HIT/200 10705 GET http://www.deepsloweasy.com/ - HIER_NONE/- text/html
+1540914263.256      0 172.24.0.3 TCP_MEM_HIT/200 10705 GET http://www.deepsloweasy.com/ - HIER_NONE/- text/html
+1540914438.158   1142 172.26.0.2 TCP_MISS/200 10697 GET http://www.deepsloweasy.com/ - FIRST_PARENT_MISS/172.27.0.4 text/html
+1540914513.857      0 172.26.0.2 TCP_MEM_HIT/200 10704 GET http://www.deepsloweasy.com/ - HIER_NONE/- text/html
+1540914531.427      0 172.26.0.2 TCP_MEM_HIT/200 10704 GET http://www.deepsloweasy.com/ - HIER_NONE/- text/html
+1540914550.563      0 172.26.0.2 TCP_MEM_HIT/200 10705 GET http://www.deepsloweasy.com/ - HIER_NONE/- text/html
+1540914948.814      0 172.26.0.2 TCP_MEM_HIT/200 10705 GET http://www.deepsloweasy.com/ - HIER_NONE/- text/html
+1540915200.582      2 172.26.0.2 TCP_MEM_HIT/200 10705 GET http://www.deepsloweasy.com/ - HIER_NONE/- text/html
+1540915282.524    150 172.26.0.2 TCP_MISS/200 10705 GET http://www.deepsloweasy.com/ - PARENT_HIT/172.27.0.4 text/html
+1540915489.614   1202 172.26.0.2 TCP_MISS/200 10697 GET http://www.deepsloweasy.com/ - FIRST_PARENT_MISS/172.27.0.2 text/html

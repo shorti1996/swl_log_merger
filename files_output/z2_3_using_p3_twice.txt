@@ -1,0 +1,104 @@
+z2_3_using_p3_twice/m1/logs/access.log
+1540910354.516      0 172.18.0.4 TCP_MISS/200 316 GET http://e5e500cd52a6:3128/squid-internal-dynamic/netdb - HIER_NONE/- -
+z2_3_using_p3_twice/m3/logs/store.log
+1540910354.516 RELEASE -1 FFFFFFFF 48616D5947FD1D82D5CD5717C1E4E42D   ?         ?         ?         ? ?/? ?/? ? ?
+z2_3_using_p3_twice/m1/logs/store.log
+1540910354.516 RELEASE -1 FFFFFFFF CE40EC91B8D892865D13DCF941FC020D   ?         ?         ?         ? ?/? ?/? ? ?
+z2_3_using_p3_twice/m1/logs/access.log
+1540910355.097      0 172.18.0.5 TCP_MISS/200 316 GET http://e5e500cd52a6:3128/squid-internal-dynamic/netdb - HIER_NONE/- -
+z2_3_using_p3_twice/m1/logs/store.log
+1540910355.097 RELEASE -1 FFFFFFFF 82350CEF1C9CC5FF14DD4B2232149609   ?         ?         ?         ? ?/? ?/? ? ?
+z2_3_using_p3_twice/m2/logs/store.log
+1540910355.097 RELEASE -1 FFFFFFFF FA791D70148B657E6E65D07CD944BD62   ?         ?         ?         ? ?/? ?/? ? ?
+z2_3_using_p3_twice/m2/logs/access.log
+1540910355.292      0 172.18.0.3 TCP_MISS/200 316 GET http://63401457236e:3128/squid-internal-dynamic/netdb - HIER_NONE/- -
+z2_3_using_p3_twice/m1/logs/store.log
+1540910355.292 RELEASE -1 FFFFFFFF E1D60437DEE83663D5ED34E08A8F0C7A   ?         ?         ?         ? ?/? ?/? ? ?
+z2_3_using_p3_twice/m2/logs/store.log
+1540910355.292 RELEASE -1 FFFFFFFF F6D0735805CAEADE7715DD3BFEBFA218   ?         ?         ?         ? ?/? ?/? ? ?
+z2_3_using_p3_twice/m2/logs/access.log
+1540910357.216      0 172.18.0.4 TCP_MISS/200 316 GET http://63401457236e:3128/squid-internal-dynamic/netdb - HIER_NONE/- -
+z2_3_using_p3_twice/m2/logs/store.log
+1540910357.216 RELEASE -1 FFFFFFFF 0C4E90F1B8F7C1A89E06C904A668142F   ?         ?         ?         ? ?/? ?/? ? ?
+z2_3_using_p3_twice/m3/logs/store.log
+1540910357.216 RELEASE -1 FFFFFFFF 41BA89D9459DDA02EF9C71F1774EC20E   ?         ?         ?         ? ?/? ?/? ? ?
+z2_3_using_p3_twice/m3/logs/access.log
+1540910357.798      0 172.18.0.5 TCP_MISS/200 316 GET http://ab354719a0dc:3128/squid-internal-dynamic/netdb - HIER_NONE/- -
+z2_3_using_p3_twice/m3/logs/store.log
+1540910357.798 RELEASE -1 FFFFFFFF FBD659BF60118E177C7EADAF55899404   ?         ?         ?         ? ?/? ?/? ? ?
+z2_3_using_p3_twice/m2/logs/store.log
+1540910357.799 RELEASE -1 FFFFFFFF 6D96BEBAFBF16C6C4DA4DA9D07C1E725   ?         ?         ?         ? ?/? ?/? ? ?
+z2_3_using_p3_twice/m3/logs/access.log
+1540910357.993      0 172.18.0.3 TCP_MISS/200 316 GET http://ab354719a0dc:3128/squid-internal-dynamic/netdb - HIER_NONE/- -
+z2_3_using_p3_twice/m3/logs/store.log
+1540910357.993 RELEASE -1 FFFFFFFF 0897D35661FAE58EA5EE95F43C40E7C8   ?         ?         ?         ? ?/? ?/? ? ?
+z2_3_using_p3_twice/m1/logs/store.log
+1540910357.993 RELEASE -1 FFFFFFFF F29649DE7CCD446B4B73C970EDD0818F   ?         ?         ?         ? ?/? ?/? ? ?
+
+z2_3_using_p3_twice/m2/logs/access.log
+1540910486.024      0 172.18.0.3 UDP_MISS/000 49 ICP_QUERY http://www.deepsloweasy.com/ - HIER_NONE/- -
+z2_3_using_p3_twice/m2/logs/access.log
+1540910486.025      0 172.18.0.3 TCP_MEM_HIT/200 555 GET http://63401457236e:3128/squid-internal-periodic/store_digest - HIER_NONE/- application/cache-digest
+z2_3_using_p3_twice/m3/logs/access.log
+1540910486.025      0 172.18.0.3 UDP_MISS/000 49 ICP_QUERY http://www.deepsloweasy.com/ - HIER_NONE/- -
+z2_3_using_p3_twice/m1/logs/store.log
+1540910486.025 SWAPOUT 00 00000000 EDEDD92A846C0EA1768FC08C1BB7E91D  200 1540910486 1540910348 1540913948 application/cache-digest 160/160 GET http://p2:3128/squid-internal-periodic/store_digest
+z2_3_using_p3_twice/m1/logs/store.log
+1540910487.214 SWAPOUT 00 00000001 D410C4992910D01EE8F26A2B4FB2B930  200 1540910485 1533748969        -1 text/html 10197/10197 GET http://www.deepsloweasy.com/
+z2_3_using_p3_twice/m1/logs/access.log
+1540910487.217   1288 172.18.0.2 TCP_MISS/200 10586 GET http://www.deepsloweasy.com/ - HIER_DIRECT/192.169.155.198 text/html
+
+z2_3_using_p3_twice/m3/logs/access.log
+1540910546.029      0 172.18.0.3 TCP_MEM_HIT/200 555 GET http://ab354719a0dc:3128/squid-internal-periodic/store_digest - HIER_NONE/- application/cache-digest
+z2_3_using_p3_twice/m1/logs/store.log
+1540910546.029 SWAPOUT 00 00000002 F0588C39D62AC464B1FA5637226759BE  200 1540910546 1540910347 1540913947 application/cache-digest 160/160 GET http://p3:3128/squid-internal-periodic/store_digest
+
+z2_3_using_p3_twice/m1/logs/access.log
+1540910575.490      0 172.18.0.2 TCP_MEM_HIT/200 10593 GET http://www.deepsloweasy.com/ - HIER_NONE/- text/html
+
+z2_3_using_p3_twice/m1/logs/access.log
+1540910652.354      0 172.18.0.5 UDP_HIT/000 49 ICP_QUERY http://www.deepsloweasy.com/ - HIER_NONE/- -
+z2_3_using_p3_twice/m3/logs/access.log
+1540910652.354      0 172.18.0.5 UDP_MISS/000 49 ICP_QUERY http://www.deepsloweasy.com/ - HIER_NONE/- -
+z2_3_using_p3_twice/m1/logs/access.log
+1540910652.355      0 172.18.0.5 TCP_MEM_HIT/200 555 GET http://e5e500cd52a6:3128/squid-internal-periodic/store_digest - HIER_NONE/- application/cache-digest
+z2_3_using_p3_twice/m1/logs/access.log
+1540910652.356      0 172.18.0.5 TCP_MEM_HIT/200 10594 GET http://www.deepsloweasy.com/ - HIER_NONE/- text/html
+z2_3_using_p3_twice/m2/logs/store.log
+1540910652.356 SWAPOUT 00 00000000 FA6B1ED81D324553B1875E105AB057A4  200 1540910652 1540910348 1540913948 application/cache-digest 160/160 GET http://p1:3128/squid-internal-periodic/store_digest
+z2_3_using_p3_twice/m2/logs/store.log
+1540910652.363 SWAPOUT 00 00000001 D410C4992910D01EE8F26A2B4FB2B930  200 1540910485 1533748969        -1 text/html 10197/10197 GET http://www.deepsloweasy.com/
+z2_3_using_p3_twice/m2/logs/access.log
+1540910652.367  35032 172.18.0.2 TCP_MISS/200 10705 GET http://www.deepsloweasy.com/ - SIBLING_HIT/172.18.0.3 text/html
+
+z2_3_using_p3_twice/m3/logs/access.log
+1540910712.356      0 172.18.0.5 TCP_MEM_HIT/200 555 GET http://ab354719a0dc:3128/squid-internal-periodic/store_digest - HIER_NONE/- application/cache-digest
+z2_3_using_p3_twice/m2/logs/store.log
+1540910712.356 SWAPOUT 00 00000002 F0588C39D62AC464B1FA5637226759BE  200 1540910712 1540910347 1540913947 application/cache-digest 160/160 GET http://p3:3128/squid-internal-periodic/store_digest
+
+z2_3_using_p3_twice/m2/logs/access.log
+1540910792.988  35015 172.18.0.2 TCP_MEM_HIT/200 10703 GET http://www.deepsloweasy.com/ - HIER_NONE/- text/html
+
+z2_3_using_p3_twice/m2/logs/access.log
+1540910863.043      0 172.18.0.4 UDP_HIT/000 49 ICP_QUERY http://www.deepsloweasy.com/ - HIER_NONE/- -
+z2_3_using_p3_twice/m1/logs/access.log
+1540910863.044      0 172.18.0.4 UDP_HIT/000 49 ICP_QUERY http://www.deepsloweasy.com/ - HIER_NONE/- -
+z2_3_using_p3_twice/m1/logs/access.log
+1540910863.045      0 172.18.0.4 TCP_MEM_HIT/200 555 GET http://e5e500cd52a6:3128/squid-internal-periodic/store_digest - HIER_NONE/- application/cache-digest
+z2_3_using_p3_twice/m3/logs/store.log
+1540910863.045 SWAPOUT 00 00000000 FA6B1ED81D324553B1875E105AB057A4  200 1540910863 1540910348 1540913948 application/cache-digest 160/160 GET http://p1:3128/squid-internal-periodic/store_digest
+
+z2_3_using_p3_twice/m2/logs/access.log
+1540910898.062  35018 172.18.0.4 TCP_MEM_HIT/200 10703 GET http://www.deepsloweasy.com/ - HIER_NONE/- text/html
+z2_3_using_p3_twice/m3/logs/store.log
+1540910898.062 SWAPOUT 00 00000001 D410C4992910D01EE8F26A2B4FB2B930  200 1540910485 1533748969        -1 text/html 10197/10197 GET http://www.deepsloweasy.com/
+z2_3_using_p3_twice/m3/logs/access.log
+1540910898.069  70041 172.18.0.2 TCP_MISS/200 10814 GET http://www.deepsloweasy.com/ - SIBLING_HIT/172.18.0.5 text/html
+
+z2_3_using_p3_twice/m3/logs/access.log
+1540910915.511      0 172.18.0.2 TCP_MEM_HIT/200 10812 GET http://www.deepsloweasy.com/ - HIER_NONE/- text/html
+
+z2_3_using_p3_twice/m2/logs/access.log
+1540910923.046      0 172.18.0.4 TCP_MEM_HIT/200 555 GET http://63401457236e:3128/squid-internal-periodic/store_digest - HIER_NONE/- application/cache-digest
+z2_3_using_p3_twice/m3/logs/store.log
+1540910923.047 SWAPOUT 00 00000002 EDEDD92A846C0EA1768FC08C1BB7E91D  200 1540910923 1540910348 1540913948 application/cache-digest 160/160 GET http://p2:3128/squid-internal-periodic/store_digest

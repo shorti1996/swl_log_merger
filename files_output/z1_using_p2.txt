@@ -1,0 +1,43 @@
+z1_using_p2/m1/logs/access.log
+1540908277.954      0 172.18.0.4 TCP_MISS/200 316 GET http://633d1149e893:3128/squid-internal-dynamic/netdb - HIER_NONE/- -
+z1_using_p2/m3/logs/store.log
+1540908277.954 RELEASE -1 FFFFFFFF 3AE2BACCE22FEDDB56BA316496A8B30C   ?         ?         ?         ? ?/? ?/? ? ?
+z1_using_p2/m1/logs/store.log
+1540908277.954 RELEASE -1 FFFFFFFF 6AD1232DB0A4BC09E05C9DA2C71FA481   ?         ?         ?         ? ?/? ?/? ? ?
+z1_using_p2/m1/logs/access.log
+1540908277.975      0 172.18.0.3 TCP_MISS/200 316 GET http://633d1149e893:3128/squid-internal-dynamic/netdb - HIER_NONE/- -
+z1_using_p2/m1/logs/store.log
+1540908277.975 RELEASE -1 FFFFFFFF BEFB069B03534973573E7273D81D94E3   ?         ?         ?         ? ?/? ?/? ? ?
+z1_using_p2/m2/logs/store.log
+1540908277.976 RELEASE -1 FFFFFFFF 97001DE2103ED642BDF5F1B6F3AA45B8   ?         ?         ?         ? ?/? ?/? ? ?
+
+z1_using_p2/m1/logs/access.log
+1540908297.110      0 172.18.0.3 UDP_MISS/000 49 ICP_QUERY http://www.deepsloweasy.com/ - HIER_NONE/- -
+z1_using_p2/m1/logs/access.log
+1540908297.110      0 172.18.0.3 TCP_MEM_HIT/200 555 GET http://633d1149e893:3128/squid-internal-periodic/store_digest - HIER_NONE/- application/cache-digest
+z1_using_p2/m2/logs/store.log
+1540908297.111 SWAPOUT 00 00000000 FA6B1ED81D324553B1875E105AB057A4  200 1540908297 1540908267 1540911867 application/cache-digest 160/160 GET http://p1:3128/squid-internal-periodic/store_digest
+z1_using_p2/m1/logs/store.log
+1540908298.289 SWAPOUT 00 00000000 D410C4992910D01EE8F26A2B4FB2B930  200 1540908295 1533748969        -1 text/html 10197/10197 GET http://www.deepsloweasy.com/
+z1_using_p2/m1/logs/access.log
+1540908298.292   1177 172.18.0.3 TCP_MISS/200 10586 GET http://www.deepsloweasy.com/ - HIER_DIRECT/192.169.155.198 text/html
+z1_using_p2/m2/logs/store.log
+1540908298.293 SWAPOUT 00 00000001 D410C4992910D01EE8F26A2B4FB2B930  200 1540908295 1533748969        -1 text/html 10197/10197 GET http://www.deepsloweasy.com/
+z1_using_p2/m2/logs/access.log
+1540908298.297  39269 172.18.0.5 TCP_MISS/200 10697 GET http://www.deepsloweasy.com/ - FIRST_PARENT_MISS/172.18.0.2 text/html
+
+z1_using_p2/m2/logs/access.log
+1540908428.123  35027 172.18.0.5 TCP_MEM_HIT/200 10705 GET http://www.deepsloweasy.com/ - HIER_NONE/- text/html
+
+z1_using_p2/m2/logs/access.log
+1540908472.474      0 172.18.0.5 TCP_MEM_HIT/200 10705 GET http://www.deepsloweasy.com/ - HIER_NONE/- text/html
+z1_using_p2/m2/logs/access.log
+1540908474.122      0 172.18.0.5 TCP_MEM_HIT/200 10705 GET http://www.deepsloweasy.com/ - HIER_NONE/- text/html
+z1_using_p2/m2/logs/access.log
+1540908474.686      0 172.18.0.5 TCP_MEM_HIT/200 10705 GET http://www.deepsloweasy.com/ - HIER_NONE/- text/html
+z1_using_p2/m2/logs/access.log
+1540908475.053      0 172.18.0.5 TCP_MEM_HIT/200 10705 GET http://www.deepsloweasy.com/ - HIER_NONE/- text/html
+z1_using_p2/m2/logs/access.log
+1540908475.614      0 172.18.0.5 TCP_MEM_HIT/200 10705 GET http://www.deepsloweasy.com/ - HIER_NONE/- text/html
+z1_using_p2/m2/logs/access.log
+1540908476.021      0 172.18.0.5 TCP_MEM_HIT/200 10705 GET http://www.deepsloweasy.com/ - HIER_NONE/- text/html

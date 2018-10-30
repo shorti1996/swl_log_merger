@@ -1,0 +1,185 @@
+2018/10/30 16:58:14| Set Current Directory to /var/spool/squid
+2018/10/30 16:58:14| Creating missing swap directories
+2018/10/30 16:58:14| /var/spool/squid exists
+2018/10/30 16:58:14| Making directories in /var/spool/squid/00
+2018/10/30 16:58:15| Making directories in /var/spool/squid/01
+2018/10/30 16:58:16| Making directories in /var/spool/squid/02
+2018/10/30 16:58:17| Making directories in /var/spool/squid/03
+2018/10/30 16:58:18| Making directories in /var/spool/squid/04
+2018/10/30 16:58:18| Making directories in /var/spool/squid/05
+2018/10/30 16:58:19| Making directories in /var/spool/squid/06
+2018/10/30 16:58:19| Making directories in /var/spool/squid/07
+2018/10/30 16:58:20| Making directories in /var/spool/squid/08
+2018/10/30 16:58:21| Making directories in /var/spool/squid/09
+2018/10/30 16:58:21| Making directories in /var/spool/squid/0A
+2018/10/30 16:58:22| Making directories in /var/spool/squid/0B
+2018/10/30 16:58:22| Making directories in /var/spool/squid/0C
+2018/10/30 16:58:23| Making directories in /var/spool/squid/0D
+2018/10/30 16:58:24| Making directories in /var/spool/squid/0E
+2018/10/30 16:58:24| Making directories in /var/spool/squid/0F
+2018/10/30 16:58:25| Set Current Directory to /var/spool/squid
+2018/10/30 16:58:25| Starting Squid Cache version 3.5.12 for x86_64-pc-linux-gnu...
+2018/10/30 16:58:25| Service Name: squid
+2018/10/30 16:58:25| Process ID 1
+2018/10/30 16:58:25| Process Roles: master worker
+2018/10/30 16:58:25| With 1048576 file descriptors available
+2018/10/30 16:58:25| Initializing IP Cache...
+2018/10/30 16:58:25| DNS Socket created at [::], FD 8
+2018/10/30 16:58:25| DNS Socket created at 0.0.0.0, FD 9
+2018/10/30 16:58:25| Adding nameserver 127.0.0.11 from /etc/resolv.conf
+2018/10/30 16:58:25| Adding ndots 1 from /etc/resolv.conf
+2018/10/30 16:58:25| Logfile: opening log daemon:/var/log/squid/access.log
+2018/10/30 16:58:25| Logfile Daemon: opening log /var/log/squid/access.log
+2018/10/30 16:58:25| Unlinkd pipe opened on FD 15
+2018/10/30 16:58:25| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2018/10/30 16:58:25| Logfile: opening log /var/log/squid/store.log
+2018/10/30 16:58:25| WARNING: log name now starts with a module name. Use 'stdio:/var/log/squid/store.log'
+2018/10/30 16:58:25| Swap maxSize 102400 + 8192 KB, estimated 8507 objects
+2018/10/30 16:58:25| Target number of buckets: 425
+2018/10/30 16:58:25| Using 8192 Store buckets
+2018/10/30 16:58:25| Max Mem  size: 8192 KB
+2018/10/30 16:58:25| Max Swap size: 102400 KB
+2018/10/30 16:58:25| Rebuilding storage in /var/spool/squid (no log)
+2018/10/30 16:58:25| Using Least Load store dir selection
+2018/10/30 16:58:25| Set Current Directory to /var/spool/squid
+2018/10/30 16:58:26| Finished loading MIME types and icons.
+2018/10/30 16:58:26| HTCP Disabled.
+2018/10/30 16:58:26| commBind: Cannot bind socket FD 20 to [::1]: (99) Cannot assign requested address
+2018/10/30 16:58:26| commBind: Cannot bind socket FD 21 to [::1]: (99) Cannot assign requested address
+2018/10/30 16:58:26| ERROR: Failed to create helper child read FD: UDP[::1]
+2018/10/30 16:58:26| Squid plugin modules loaded: 0
+2018/10/30 16:58:26| Adaptation support is off.
+2018/10/30 16:58:26| Accepting HTTP Socket connections at local=[::]:3128 remote=[::] FD 18 flags=9
+2018/10/30 16:58:26| Accepting ICP messages on [::]:3130
+2018/10/30 16:58:26| Sending ICP messages from [::]:3130
+2018/10/30 16:58:26| Configuring Sibling p2/3128/3130
+2018/10/30 16:58:39| Done scanning /var/spool/squid dir (0 entries)
+2018/10/30 16:58:39| Finished rebuilding storage from disk.
+2018/10/30 16:58:39|         0 Entries scanned
+2018/10/30 16:58:39|         0 Invalid entries.
+2018/10/30 16:58:39|         0 With invalid flags.
+2018/10/30 16:58:39|         0 Objects loaded.
+2018/10/30 16:58:39|         0 Objects expired.
+2018/10/30 16:58:39|         0 Objects cancelled.
+2018/10/30 16:58:39|         0 Duplicate URLs purged.
+2018/10/30 16:58:39|         0 Swapfile clashes avoided.
+2018/10/30 16:58:39|   Took 13.56 seconds (  0.00 objects/sec).
+2018/10/30 16:58:39| Beginning Validation Procedure
+2018/10/30 16:58:39|   Completed Validation Procedure
+2018/10/30 16:58:39|   Validated 0 Entries
+2018/10/30 16:58:39|   store_swap_size = 0.00 KB
+2018/10/30 16:58:40| storeLateRelease: released 0 objects
+2018/10/30 17:01:05| Preparing for shutdown after 2 requests
+2018/10/30 17:01:05| Waiting 30 seconds for active connections to finish
+2018/10/30 17:01:05| Closing HTTP port [::]:3128
+2018/10/30 17:01:05| Stop receiving ICP on [::]:3130
+2018/10/30 17:02:15| Set Current Directory to /var/spool/squid
+2018/10/30 17:02:15| Starting Squid Cache version 3.5.12 for x86_64-pc-linux-gnu...
+2018/10/30 17:02:15| Service Name: squid
+2018/10/30 17:02:15| Process ID 1
+2018/10/30 17:02:15| Process Roles: master worker
+2018/10/30 17:02:15| With 1048576 file descriptors available
+2018/10/30 17:02:15| Initializing IP Cache...
+2018/10/30 17:02:15| DNS Socket created at [::], FD 8
+2018/10/30 17:02:15| DNS Socket created at 0.0.0.0, FD 9
+2018/10/30 17:02:15| Adding nameserver 127.0.0.11 from /etc/resolv.conf
+2018/10/30 17:02:15| Adding ndots 1 from /etc/resolv.conf
+2018/10/30 17:02:15| Logfile: opening log daemon:/var/log/squid/access.log
+2018/10/30 17:02:15| Logfile Daemon: opening log /var/log/squid/access.log
+2018/10/30 17:02:15| Unlinkd pipe opened on FD 15
+2018/10/30 17:02:15| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2018/10/30 17:02:15| Logfile: opening log /var/log/squid/store.log
+2018/10/30 17:02:15| WARNING: log name now starts with a module name. Use 'stdio:/var/log/squid/store.log'
+2018/10/30 17:02:15| Swap maxSize 102400 + 8192 KB, estimated 8507 objects
+2018/10/30 17:02:15| Target number of buckets: 425
+2018/10/30 17:02:15| Using 8192 Store buckets
+2018/10/30 17:02:15| Max Mem  size: 8192 KB
+2018/10/30 17:02:15| Max Swap size: 102400 KB
+2018/10/30 17:02:15| Rebuilding storage in /var/spool/squid (dirty log)
+2018/10/30 17:02:15| Using Least Load store dir selection
+2018/10/30 17:02:15| Set Current Directory to /var/spool/squid
+2018/10/30 17:02:16| Finished loading MIME types and icons.
+2018/10/30 17:02:16| HTCP Disabled.
+2018/10/30 17:02:16| commBind: Cannot bind socket FD 21 to [::1]: (99) Cannot assign requested address
+2018/10/30 17:02:16| commBind: Cannot bind socket FD 22 to [::1]: (99) Cannot assign requested address
+2018/10/30 17:02:16| ERROR: Failed to create helper child read FD: UDP[::1]
+2018/10/30 17:02:16| Squid plugin modules loaded: 0
+2018/10/30 17:02:16| Adaptation support is off.
+2018/10/30 17:02:16| Accepting HTTP Socket connections at local=[::]:3128 remote=[::] FD 19 flags=9
+2018/10/30 17:02:16| Accepting ICP messages on [::]:3130
+2018/10/30 17:02:16| Sending ICP messages from [::]:3130
+2018/10/30 17:02:16| Done reading /var/spool/squid swaplog (0 entries)
+2018/10/30 17:02:16| Store rebuilding is 0.00% complete
+2018/10/30 17:02:16| Finished rebuilding storage from disk.
+2018/10/30 17:02:16|         0 Entries scanned
+2018/10/30 17:02:16|         0 Invalid entries.
+2018/10/30 17:02:16|         0 With invalid flags.
+2018/10/30 17:02:16|         0 Objects loaded.
+2018/10/30 17:02:16|         0 Objects expired.
+2018/10/30 17:02:16|         0 Objects cancelled.
+2018/10/30 17:02:16|         0 Duplicate URLs purged.
+2018/10/30 17:02:16|         0 Swapfile clashes avoided.
+2018/10/30 17:02:16|   Took 0.13 seconds (  0.00 objects/sec).
+2018/10/30 17:02:16| Beginning Validation Procedure
+2018/10/30 17:02:16|   Completed Validation Procedure
+2018/10/30 17:02:16|   Validated 0 Entries
+2018/10/30 17:02:16|   store_swap_size = 0.00 KB
+2018/10/30 17:02:16| Configuring Sibling p2/3128/3130
+2018/10/30 17:02:16| storeLateRelease: released 0 objects
+2018/10/30 17:02:23| Preparing for shutdown after 0 requests
+2018/10/30 17:02:23| Waiting 30 seconds for active connections to finish
+2018/10/30 17:02:23| Closing HTTP port [::]:3128
+2018/10/30 17:02:23| Stop receiving ICP on [::]:3130
+2018/10/30 17:02:58| Set Current Directory to /var/spool/squid
+2018/10/30 17:02:58| Starting Squid Cache version 3.5.12 for x86_64-pc-linux-gnu...
+2018/10/30 17:02:58| Service Name: squid
+2018/10/30 17:02:58| Process ID 1
+2018/10/30 17:02:58| Process Roles: master worker
+2018/10/30 17:02:58| With 1048576 file descriptors available
+2018/10/30 17:02:58| Initializing IP Cache...
+2018/10/30 17:02:58| DNS Socket created at [::], FD 8
+2018/10/30 17:02:58| DNS Socket created at 0.0.0.0, FD 9
+2018/10/30 17:02:58| Adding nameserver 127.0.0.11 from /etc/resolv.conf
+2018/10/30 17:02:58| Adding ndots 1 from /etc/resolv.conf
+2018/10/30 17:02:58| Logfile: opening log daemon:/var/log/squid/access.log
+2018/10/30 17:02:58| Logfile Daemon: opening log /var/log/squid/access.log
+2018/10/30 17:02:59| Unlinkd pipe opened on FD 15
+2018/10/30 17:02:59| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2018/10/30 17:02:59| Logfile: opening log /var/log/squid/store.log
+2018/10/30 17:02:59| WARNING: log name now starts with a module name. Use 'stdio:/var/log/squid/store.log'
+2018/10/30 17:02:59| Swap maxSize 102400 + 8192 KB, estimated 8507 objects
+2018/10/30 17:02:59| Target number of buckets: 425
+2018/10/30 17:02:59| Using 8192 Store buckets
+2018/10/30 17:02:59| Max Mem  size: 8192 KB
+2018/10/30 17:02:59| Max Swap size: 102400 KB
+2018/10/30 17:02:59| Rebuilding storage in /var/spool/squid (dirty log)
+2018/10/30 17:02:59| Using Least Load store dir selection
+2018/10/30 17:02:59| Set Current Directory to /var/spool/squid
+2018/10/30 17:02:59| Finished loading MIME types and icons.
+2018/10/30 17:02:59| HTCP Disabled.
+2018/10/30 17:02:59| commBind: Cannot bind socket FD 21 to [::1]: (99) Cannot assign requested address
+2018/10/30 17:02:59| commBind: Cannot bind socket FD 22 to [::1]: (99) Cannot assign requested address
+2018/10/30 17:02:59| ERROR: Failed to create helper child read FD: UDP[::1]
+2018/10/30 17:02:59| Squid plugin modules loaded: 0
+2018/10/30 17:02:59| Adaptation support is off.
+2018/10/30 17:02:59| Accepting HTTP Socket connections at local=[::]:3128 remote=[::] FD 19 flags=9
+2018/10/30 17:02:59| Accepting ICP messages on [::]:3130
+2018/10/30 17:02:59| Sending ICP messages from [::]:3130
+2018/10/30 17:02:59| Done reading /var/spool/squid swaplog (0 entries)
+2018/10/30 17:02:59| Store rebuilding is 0.00% complete
+2018/10/30 17:02:59| Finished rebuilding storage from disk.
+2018/10/30 17:02:59|         0 Entries scanned
+2018/10/30 17:02:59|         0 Invalid entries.
+2018/10/30 17:02:59|         0 With invalid flags.
+2018/10/30 17:02:59|         0 Objects loaded.
+2018/10/30 17:02:59|         0 Objects expired.
+2018/10/30 17:02:59|         0 Objects cancelled.
+2018/10/30 17:02:59|         0 Duplicate URLs purged.
+2018/10/30 17:02:59|         0 Swapfile clashes avoided.
+2018/10/30 17:02:59|   Took 0.12 seconds (  0.00 objects/sec).
+2018/10/30 17:02:59| Beginning Validation Procedure
+2018/10/30 17:02:59|   Completed Validation Procedure
+2018/10/30 17:02:59|   Validated 0 Entries
+2018/10/30 17:02:59|   store_swap_size = 0.00 KB
+2018/10/30 17:02:59| Configuring Sibling p2/3128/3130
+2018/10/30 17:03:00| storeLateRelease: released 0 objects
